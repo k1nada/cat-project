@@ -5,6 +5,8 @@ This is a **practice project** built with HTML, CSS, and JavaScript.
 It simulates a simple online shop where users can browse, sort, and select cats.  
 All data is stored in **LocalStorage**, so the cart and wishlist are saved between sessions.
 
+Live demo: https://k1nada.github.io/cat-project/
+
 ---
 
 ## Description
