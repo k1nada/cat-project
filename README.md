@@ -1,55 +1,38 @@
-# cat_project - Learning Project
+# Cat Shop
 
+Online cat shop. Practice project I made while learning JavaScript.
 
-This is a **practice project** built with HTML, CSS, and JavaScript.  
-It simulates a simple online shop where users can browse, sort, and select cats.  
-All data is stored in **LocalStorage**, so the cart and wishlist are saved between sessions.
+Built with HTML, CSS and JavaScript, without frameworks. Cart and wishlist are saved in LocalStorage.
 
 Live demo: https://k1nada.github.io/cat-project/
 
----
-
-## Description
-
-The project was created for educational purposes to practice front-end development skills:  
-building UI components, implementing sorting/filtering logic, managing state with LocalStorage, and adding form validation with JavaScript.
-
----
-
 ## Features
 
-- View cat cards with image, coat color, age, and price  
-- Discounts displayed on product cards  
-- Add cats to **cart** or **favorites** (wishlist)  
-- Sold cats are marked as **Sold** and cannot be purchased  
-- Sort cats by **price** or **age** and reset filters with one click  
-- Show more cats with **"Load more"** button (9 cats initially, 10 more per click)  
-- State persistence with **LocalStorage**  
-- Notifications and error messages:  
-  - Added to cart  
-  - Added to wishlist  
-  - Out of stock  
-  - Form validation errors  
-- Subscription form with email validation and checkbox for newsletter  
-- Responsive **mobile menu**
-
----
+- Cat cards with photo, color, age and price
+- Discount badges on cards
+- Add to cart and to wishlist
+- Sold cats are marked as Sold and cannot be bought
+- Sort by price or age, reset sorting
+- Load more button: 9 cats at first, 10 more on each click
+- Notifications: added to cart, added to wishlist, out of stock
+- Newsletter form with email validation
+- Mobile menu and responsive layout
 
 ## Screenshots
 
-Main page preview:
+![Main page](https://github.com/user-attachments/assets/3185bc3a-bb44-4915-8929-17eb5ca2dd87)
 
-![cat-project1](https://github.com/user-attachments/assets/3185bc3a-bb44-4915-8929-17eb5ca2dd87)
+![Newsletter section](https://github.com/user-attachments/assets/066815a4-adca-49db-9e94-764bf95e3c1c)
 
-Additional section with newsletter subscription:
+## Run locally
 
-![cat-project2](https://github.com/user-attachments/assets/066815a4-adca-49db-9e94-764bf95e3c1c)
+No build step is needed. Open `index.html` in the browser.
 
----
-## Future Improvements
+## Project structure
 
-- Load cats dynamically from API instead of static data
-- Add user registration and login system
-- Implement full checkout process simulation
-- Better responsive layout for mobile devices
-
+```text
+index.html            page markup
+style.css             styles
+main.js               cards, cart, wishlist, sorting and forms
+src/assets/images/    cat photos
+```
